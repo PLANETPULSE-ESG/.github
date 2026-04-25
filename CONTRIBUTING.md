@@ -38,13 +38,11 @@ Each repo includes a Husky pre-push hook that blocks pushes to `main` from your 
 
 ## Code review expectations
 
-+------------+------------------------------------------------------------------+
-| Role       | Expectation                                                      |
-+------------+------------------------------------------------------------------+
-| Author     | Self-review before review. Respond within 1 business day.        |
-| Reviewer   | Review within 1 business day. Block issues; "nit:" for style.    |
-| Eng-leads  | Final approval. Resolve disagreements.                           |
-+------------+------------------------------------------------------------------+
+| Role | Expectation |
+|------|-------------|
+| Author | Self-review the diff before requesting review. Respond to feedback within 1 business day. |
+| Reviewer | First-pass review within 1 business day. Block on real issues; nit on style with "nit:" prefix. |
+| Eng-leads | Final approval. Resolve disagreements between author and reviewer. |
 
 ## What to flag in review
 
