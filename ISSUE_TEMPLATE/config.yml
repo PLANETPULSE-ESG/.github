@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product feature request or bug
+    url: https://pm.planetpulse.cloud
+    about: Product issues live in Plane, not GitHub. Open them there.
+  - name: Customer support request
+    url: https://support.planetpulse.cloud
+    about: For customer-reported issues, use Chatwoot.
+  - name: Internal documentation
+    url: https://docs.planetpulse.cloud
+    about: Looking for runbooks, SOPs, or company docs? Check Docmost.

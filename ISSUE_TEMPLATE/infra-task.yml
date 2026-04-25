@@ -1,0 +1,31 @@
+name: Infrastructure task
+description: Devops or infra work — server config, CI improvements, tooling setup.
+labels: ["infra", "needs-triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? What's the trigger?
+      description: Capacity issue, security finding, new requirement, etc.
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: How will we know it's done?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "Now (this week)"
+        - "Soon (this sprint)"
+        - "Later (backlog)"
+      default: 1
