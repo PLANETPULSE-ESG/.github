@@ -1,0 +1,11 @@
+# Default owner for any path not matched below
+*               @planetpulse-esg/eng-leads
+
+# Devops / infra paths
+.github/        @planetpulse-esg/devops
+docker/         @planetpulse-esg/devops
+infrastructure/ @planetpulse-esg/devops
+
+# Critical shared paths (auto-assign for review)
+packages/auth/  @planetpulse-esg/eng-leads
+packages/db/    @planetpulse-esg/eng-leads
