@@ -27,3 +27,13 @@ If `planetpulse/.github/PULL_REQUEST_TEMPLATE.md` exists in the `planetpulse` re
 From any repo's own workflow file:
 
 ```yaml
+jobs:
+  audit:
+    uses: planetpulse-esg/.github/.github/workflows/audit-direct-push.yml@main
+```
+
+The double `.github/.github/` in the path is correct: org / repo-name / folder / file.
+
+## Editing
+
+Changes here propagate immediately to every repo in the org. There's no CI to test these defaults, so review changes carefully — a typo in CODEOWNERS or a broken issue template affects every repo.
